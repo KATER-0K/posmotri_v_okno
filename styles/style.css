@@ -64,8 +64,9 @@ ol {
 
 .result__video-container {
   position: relative;
-  inline-size: 711px;
-  margin: 0 0 11px;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 17px;
 }
 
 .video {
@@ -95,6 +96,7 @@ ol {
 
 .search-form__fieldset-title {
   font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: normal;
   font-size: 18px;
   font-weight: 400;
 }
@@ -127,7 +129,7 @@ ol {
   padding: 2px 0;
   color: currentColor;
   background-color: transparent;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   inline-size: 225px;
@@ -155,7 +157,9 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
+  align-items: center;
   gap: 15px;
+  margin-bottom: 6px;
 }
 
 .search-form__pseudo-checkbox {
@@ -220,8 +224,6 @@ ol {
   text-transform: uppercase;
   padding: 0 0 26px;
   color: #fff;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 .content__accent {
@@ -281,6 +283,10 @@ ol {
   padding: 2px 2px 5px;
   color: #fff;
   hyphens: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }
 
 .content__video-card-description {
