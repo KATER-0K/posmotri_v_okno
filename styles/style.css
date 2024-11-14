@@ -286,7 +286,7 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-
+  max-width: 200px;
 }
 
 .content__video-card-description {
